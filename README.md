@@ -1,31 +1,47 @@
-# Cognitive Pattern Recognition Tools
+# Cognitive Pattern Tools
 
-**Meta-cognitive analysis framework for behavioral pattern identification and decision support**
+**Meta-cognitive analysis for behavioral pattern identification and decision support**
 
-Part of the [CCCS Framework](https://github.com/aadi-architect/aadi-architect) research ecosystem.
+Part of the [CCCS framework](https://github.com/aadi-architect/aadi-architect) research ecosystem.
+
+> **What this repository is:** an architecture specification — component breakdowns and
+> integration notes. There is no runnable implementation here yet. It is labeled this way on
+> purpose so nobody clones it expecting a library.
 
 ## Overview
 
-Tools for meta-cognitive analysis, behavioral trigger mapping, and decision support. Implements perception-behavior mapping, pattern recognition for cognitive triggers, observer-mode analysis framework, and awareness loop architecture.
+Design for the layers that let a system notice *patterns* in an interaction rather than only
+its content: which cues recur, which ones precede a shift in state, and how the system's own
+observations feed back into its persona model. Two CCCS layers live here — the Symbolic Anchor
+Grid (L2) and the Observer Mirror Protocol (L5).
 
-## Core Components
+## Components
 
-### Pattern Recognition Engine
+### Symbolic Anchor Grid (SAG · CCCS L2)
+
+Meaning-saturated symbols acting as retrieval nodes. Recall traverses emotionally weighted
+anchors instead of running flat similarity search over an undifferentiated embedding space.
+
 - Behavioral trigger identification
 - Cognitive pattern clustering
-- Meta-cognitive state tracking
+- Anchor deployment and hit-rate tracking (the SAHR input to R-Score)
 
-### Observer-Mode Analysis
+### Observer Mirror Protocol (OMP · CCCS L5)
+
+Captures user state and reflects it back without interrogating for it, then feeds the observer
+model used for persona rendering.
+
 - Third-person perspective modeling
 - Self-observation feedback loops
-- Awareness architecture protocols
+- Awareness-loop architecture
 
-### Decision Support Framework
+### Pattern-informed decision support
+
 - Multi-dimensional pattern matching
-- Cognitive load assessment
+- Context-load assessment
 - Behavioral prediction modeling
 
-## Technical Architecture
+## Intended stack
 
 - **Core:** Python
 - **NLP:** HuggingFace Transformers, spaCy
@@ -34,26 +50,18 @@ Tools for meta-cognitive analysis, behavioral trigger mapping, and decision supp
 
 ## Status
 
-🚧 **Active Research** — Core architecture complete, production implementation in progress
+**Specification.** Architecture documented; implementation in progress and not yet public.
 
-## Integration
+## Related
 
-Designed to work with:
-- [Decision Simulation Framework](https://github.com/aadi-architect/decision-simulation-framework)
-- [Emotional AI Architecture](https://github.com/aadi-architect/emotional-ai-architecture)
-
-## Research Context
-
-This system implements the **Symbolic Anchor Grid** and **Observer Mirror Protocol** components of the CCCS framework, enabling:
-- Persistent behavioral pattern tracking
-- Meta-cognitive state persistence
-- Identity-consistent decision modeling
+- [emotional-ai-architecture](https://github.com/aadi-architect/emotional-ai-architecture) — EFL, TEL, SRE
+- [decision-simulation-framework](https://github.com/aadi-architect/decision-simulation-framework) — SIM Core
 
 ## Contact
 
-Adarsh Kumar (Aadi)  
-📧 adarshkr26@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/adarshkumar-ai-research)
+**Aadi Adarsh** (Adarsh Kumar) · [aadiadarsh.dev](https://aadiadarsh.dev)
+[adarshkr26@gmail.com](mailto:adarshkr26@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/adarshkumar-ai-research)
 
 ---
 
