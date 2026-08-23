@@ -60,8 +60,8 @@ model used for persona rendering.
 ## Contact
 
 **Aadi Adarsh** (Adarsh Kumar) · [aadiadarsh.dev](https://aadiadarsh.dev)
-[adarshkr26@gmail.com](mailto:adarshkr26@gmail.com) ·
-[LinkedIn](https://linkedin.com/in/adarshkumar-ai-research)
+[work@aadiadarsh.dev](mailto:work@aadiadarsh.dev) ·
+[LinkedIn](https://www.linkedin.com/in/adarsh-k-970010399/)
 
 ---
 
