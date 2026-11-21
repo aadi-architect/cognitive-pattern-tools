@@ -50,7 +50,7 @@ model used for persona rendering.
 
 ## Status
 
-**Specification.** Architecture documented; implementation in progress and not yet public.
+**Specification [Designed].** Architecture documented (SAG · CCCS L2, OMP · CCCS L5); implementation is in progress and **[Aspirational]**. Reference R-Score implementation is public in `emotional-ai-architecture` (14/14 tests passing).
 
 ## Related
 
